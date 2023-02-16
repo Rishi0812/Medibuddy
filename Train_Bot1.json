@@ -1,0 +1,369 @@
+{
+    "intents": [
+        {
+            "tag": "Intro",
+            "patterns": [
+                "hi",
+                "how are you",
+                "is anyone there",
+                "hello",
+                "whats up",
+                "hey",
+                "yo",
+                "listen",
+                "please help me",
+                "i am learner from",
+                "i belong to",
+                "aiml batch",
+                "aifl batch",
+                "i am from",
+                "my pm is",
+                "blended",
+                "online",
+                "i am from",
+                "hey ya",
+                "talking to you for first time"
+            ],
+            "responses": [
+                "Hello! how can i help you ?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Exit",
+            "patterns": [
+                "cu",
+                "thank you",
+                "thanks",
+                "cya",
+                "see you",
+                "later",
+                "see you later",
+                "goodbye",
+                "i am leaving",
+                "have a Good day",
+                "you helped me",
+                "thanks a lot",
+                "thanks a ton",
+                "you are the best",
+                "great help",
+                "too good",
+                "you are a good learning buddy"
+            ],
+            "responses": [
+                "I hope I was able to assist you, Good Bye"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Bot",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "name please",
+                "when are your hours of opertions",
+                "what are your working hours",
+                "hours of operation",
+                "working hours",
+                "hours"
+            ],
+            "responses": [
+                "I am MediBuddy, your learning buddy. I am here to help you with your queries. I am available 24/7"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Profane",
+            "patterns": [
+                "what the hell",
+                "bloody stupid bot",
+                "do you think you are very smart",
+                "screw you",
+                "i hate you",
+                "you are stupid",
+                "jerk",
+                "you are a joke",
+                "useless piece of shit",
+                "Fuck",
+                "get lost"
+            ],
+            "responses": [
+                "Please use respectful words"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "DL",
+            "patterns": ["what is deep learning", 
+                "unable to understand deep learning",
+                "explain me how deep learning works",
+                "i am not able to understand deep learning",
+                "not able to understand neural nets",
+                "very diffult to understand neural nets",
+                "unable to understand neural nets",
+                "ann", 
+                "artificial intelligence", 
+                "artificial neural networks",
+                "weights",
+                "activation function",
+                "hidden layers",
+                "softmax",
+                "sigmoid",
+                "relu",
+                "otimizer",
+                "forward propagation",
+                "backward propagation",
+                "epochs",
+                "epoch",
+                "what is an epoch",
+                "adam",
+                "sgd"],
+         "responses": [
+            "Deep learning is a type of machine learning and artificial intelligence (AI) that imitates the way humans gain certain types of knowledge. Deep learning is an important element of data science, which includes statistics and predictive modeling.It includes epochs, nueral networks and other concepts."
+        ],
+         "context_set": ""
+        },
+        {
+            "tag": "ML",
+            "patterns": ["i am not able to understand svm", 
+                "explain me how machine learning works",
+                "i am not able to understand naive bayes",
+                "i am not able to understand logistic regression",
+                "i am not able to understand ensemble techb=niques",
+                "i am not able to understand knn",
+                "i am not able to understand knn imputer",
+                "i am not able to understand cross validation",
+                "i am not able to understand boosting",
+                "i am not able to understand random forest",
+                "i am not able to understand ada boosting",
+                "i am not able to understand gradient boosting",
+                "machine learning",
+                "ML",
+                "I want a question regarding ml",
+                "SL", 
+                "supervised learning",
+                "knn",
+                "logistic regression",
+                "regression",
+                "classification",
+                "naive bayes",
+                "nb",
+                "ensemble techniques",
+                "bagging",
+                "boosting",
+                "ada boosting",
+                "ada",
+                "gradient boosting",
+                "hyper parameters"
+            ],
+            "responses": [
+                "Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed.Based on the methods and way of learning, machine learning is divided into mainly four types, which are: Supervised Machine Learning, Unsupervised Machine Learning, Semi-Supervised Machine Learning and Reinforcement Learning."
+            ],
+            "context_set": ""
+           },
+           {
+            "tag":"Triangle",
+            "patterns":[
+                "How to find the area of triangle?",
+                "Heron's Formula",
+                "Triangle",
+                "Area of a triangle",
+                "Area of scalene triangle",
+                "Area of right angled triangle",
+                "triangle formulae",
+                "i am not able to understand heron's formula",
+                "What is area of triangle found",
+                ""
+            ],
+            "responses":[
+                 "Area of triangle is determined by two formulae. One is (b*h)/2 and other one is Heron's formula i.e. A = sqrt(s(s-a)(s-b)(s-c))."
+            ],
+            "context_set": ""
+           },
+           {
+            "tag": "Health",
+            "paternns": [
+            "What is a fever?",
+            "What causes a headache?",
+            "What is high blood pressure?",
+            "What is diabetes?",
+            "What is a heart attack?",
+            "What is a stroke?",
+            "What is asthma?",
+            "What is the flu?",
+            "What is arthritis?",
+            "What is cancer?",
+            "What is anxiety?",
+            "What is depression?",
+            "What is insomnia?",
+            "What is a concussion?",
+            "What is an allergy?",
+            "What is acid reflux?",
+            "What is a cold?"
+            ],
+            "responses": [
+            "I'm sorry, I am not qualified to give medical advice. Please consult a doctor or healthcare professional for any concerns about your health.",
+            "If you are experiencing any symptoms, please consult a doctor or healthcare professional. They can help determine the cause and recommend appropriate treatment.",
+            "Please consult a doctor or healthcare professional to determine if you have high blood pressure and what treatment options may be appropriate.",
+            "Diabetes is a condition in which the body is unable to properly regulate blood sugar levels. Please consult a doctor or healthcare professional for more information.",
+            "A heart attack occurs when blood flow to the heart is blocked, often due to a buildup of plaque in the arteries. If you are experiencing chest pain or other symptoms, please seek medical attention immediately.",
+            "A stroke occurs when blood flow to the brain is disrupted, often due to a blockage or rupture of a blood vessel. If you are experiencing symptoms such as sudden numbness, confusion, or difficulty speaking or walking, please seek medical attention immediately.",
+            "Asthma is a chronic respiratory condition in which the airways become inflamed and narrow, making it difficult to breathe. Please consult a doctor or healthcare professional for more information on managing this condition.",
+            "The flu is a contagious respiratory illness caused by the influenza virus, which can cause symptoms like fever, body aches, and fatigue. Please consult a doctor or healthcare professional for more information on prevention and treatment.",
+            "Arthritis is a broad term that refers to inflammation and pain in the joints, often due to wear and tear over time. Please consult a doctor or healthcare professional for more information on managing this condition.",
+            "Cancer is a disease in which abnormal cells divide and multiply uncontrollably, often forming tumors that can spread to other parts of the body. Please consult a doctor or healthcare professional for more information on diagnosis and treatment options.",
+            "Anxiety is a mental health disorder characterized by excessive worry and fear. Please consult a mental health professional for more information on diagnosis and treatment options.",
+            "Depression is a mental health disorder characterized by persistent feelings of sadness, hopelessness, and loss of interest in activities. Please consult a mental health professional for more information on diagnosis and treatment options.",
+            "Insomnia is a sleep disorder characterized by difficulty falling or staying asleep. Please consult a doctor or healthcare professional for more information on managing this condition.",
+            "A concussion is a type of traumatic brain injury that occurs when the brain is jolted or shaken within the skull. If you are experiencing symptoms such as headache, dizziness, or confusion, please seek medical attention immediately.",
+            "An allergy is an overreaction of the immune system to a particular substance, such as pollen, food, or medication. Please consult a doctor or healthcare professional for more information on managing this condition.",
+            "Acid reflux is a condition in which stomach acid flows back up into the esophagus, causing heartburn and other symptoms. Please consult a doctor or healthcare professional for more information on managing this condition."
+            ],
+            "context_set": ""
+              },
+              {
+                "tag": "Symptoms",
+                "patterns": [
+                "What are the symptoms of a fever?",
+                "What are the symptoms of a headache?",
+                "What are the symptoms of high blood pressure?",
+                "What are the symptoms of diabetes?",
+                "What are the symptoms of a heart attack?",
+                "What are the symptoms of a stroke?",
+                "What are the symptoms of asthma?",
+                "What are the symptoms of the flu?",
+                "What are the symptoms of arthritis?",
+                "What are the symptoms of cancer?",
+                "What are the symptoms of anxiety?",
+                "What are the symptoms of depression?",
+                "What are the symptoms of insomnia?",
+                "What are the symptoms of a concussion?",
+                "What are the symptoms of an allergy?",
+                "What are the symptoms of acid reflux?",
+                "What are the symptoms of a cold?"
+                ],
+                "responses": [
+                "A fever is a body temperature that is higher than normal. Symptoms may include chills, sweating, and fatigue. If you are experiencing a fever, please consult a doctor or healthcare professional for more information.",
+                "A headache is a pain in the head, scalp, or neck. Symptoms may include nausea, vomiting, and sensitivity to light. If you are experiencing a headache, please consult a doctor or healthcare professional for more information.",
+                "High blood pressure is a condition in which the force of blood against the walls of the arteries is too high. Symptoms may include dizziness, shortness of breath, and chest pain. If you are experiencing symptoms, please consult a doctor or healthcare professional for more information.",
+                "Diabetes is a condition in which the body is unable to properly regulate blood sugar levels. Symptoms may include increased thirst, frequent urination, and fatigue. If you are experiencing symptoms, please consult a doctor or healthcare professional for more information.",
+                "A heart attack occurs when blood flow to the heart is blocked, often due to a buildup of plaque in the arteries. Symptoms may include chest pain, shortness of breath, and dizziness. If you are experiencing symptoms, please seek medical attention immediately.",
+                "A stroke occurs when blood flow to the brain is disrupted, often due to a blockage or rupture of a blood vessel. Symptoms may include sudden numbness, confusion, or difficulty speaking or walking. If you are experiencing symptoms, please seek medical attention immediately.",
+                "Asthma is a chronic respiratory condition in which the airways become inflamed and narrow, making it difficult to breathe. Symptoms may include wheezing, coughing, and shortness of breath. If you are experiencing symptoms, please consult a doctor or healthcare professional for more information.",
+                "The flu is a contagious respiratory illness caused by the influenza virus, which can cause symptoms like fever, body aches, and fatigue. Symptoms may include coughing, sneezing, and sore throat. If you are experiencing symptoms, please consult a doctor or healthcare professional for more information.",
+                "Arthritis is a broad term that refers to inflammation and pain in the joints, often due to wear and tear over time. Symptoms may include stiffness, swelling, and pain. If you are experiencing symptoms, please consult a doctor or healthcare professional for more information."
+                ],
+                "context_set": ""
+                },
+                {
+"tag":"Covid-19",
+"patterns":[
+"What is Covid-19?",
+"How is Covid-19 transmitted?",
+"What are the symptoms of Covid-19?",
+"How can I protect myself from Covid-19?",
+"Is there a vaccine for Covid-19?",
+"What are the long-term effects of Covid-19?"
+],
+"responses":[
+"Covid-19 is a highly contagious respiratory illness caused by the SARS-CoV-2 virus.",
+"Covid-19 can be transmitted through respiratory droplets from an infected person, or by touching a surface contaminated with the virus.",
+"Symptoms of Covid-19 can include fever, cough, fatigue, loss of taste or smell, and difficulty breathing.",
+"You can protect yourself from Covid-19 by wearing a mask, practicing social distancing, washing your hands frequently, and avoiding large gatherings.",
+"Yes, there are several vaccines available that have been shown to be highly effective at preventing Covid-19.",
+"Some people who have had Covid-19 may experience long-term effects such as fatigue, shortness of breath, or difficulty concentrating, even after they have recovered from the acute illness."
+],
+"context_set": ""
+},
+
+{
+"tag":"Programming",
+"patterns":[
+"What is programming?",
+"What are programming languages?",
+"What are some popular programming languages?",
+"How do I learn programming?",
+"What is an IDE?",
+"What is debugging?",
+"What is an algorithm?"
+],
+"responses":[
+"Programming is the process of writing instructions that a computer can execute to perform a specific task.",
+"Programming languages are formal languages used to write computer programs.",
+"Some popular programming languages include Python, Java, C++, and JavaScript.",
+"You can learn programming by taking courses, reading books, and practicing by writing code.",
+"An IDE (Integrated Development Environment) is a software application that provides comprehensive facilities to computer programmers for software development.",
+"Debugging is the process of finding and fixing errors in a computer program.",
+"An algorithm is a step-by-step procedure for solving a problem or accomplishing a task."
+],
+"context_set": ""
+},
+
+{
+"tag":"Music",
+"patterns":[
+"What is music?",
+"What are some types of music?",
+"What is a melody?",
+"What is a chord?",
+"What is rhythm?",
+"How can I learn to play an instrument?",
+"What is a concert?",
+"What is a band?",
+"What is a singer?",
+"What is a songwriter?"
+],
+"responses":[
+"Music is an art form that uses sound and silence to convey emotion and communicate ideas.",
+"Some types of music include classical, rock, pop, hip-hop, jazz, and electronic.",
+"A melody is a sequence of musical notes that are played or sung in a particular order.",
+"A chord is a combination of three or more notes that are played simultaneously.",
+"Rhythm is the pattern of sounds and silences in music that creates a sense of movement and energy.",
+"You can learn to play an instrument by taking lessons, practicing regularly, and listening to music.",
+"A concert is a live performance of music by one or more artists.",
+"A band is a group of musicians who play music together.",
+"A singer is a musician who uses their voice to perform music.",
+"A songwriter is a musician who writes songs, typically with lyrics and melody."
+],
+"context_set": ""
+},
+{
+"tag": "Medical Conditions",
+"patterns": [
+"What is a fever?",
+"What is high blood pressure?",
+"What causes a headache?",
+"What is diabetes?",
+"What is a heart attack?",
+"What is a stroke?",
+"What is asthma?",
+"What is the flu?",
+"What is arthritis?",
+"What is cancer?",
+"What is anxiety?",
+"What is depression?",
+"What is insomnia?",
+"What is a concussion?",
+"What is an allergy?",
+"What is acid reflux?",
+"What is irritable bowel syndrome (IBS)?"
+],
+"responses": [
+"I'm sorry, I am not qualified to give medical advice. It's important to consult with a licensed medical professional for accurate information and guidance on medical conditions.",
+"Please speak to a doctor or a medical professional for accurate information and guidance on medical conditions.",
+"It's always best to consult with a medical professional for any concerns or questions regarding medical conditions.",
+"Please consult with a medical professional for accurate information and guidance on medical conditions.",
+"It's important to speak with a doctor or a medical professional for accurate information and guidance on medical conditions.",
+"I'm sorry, I am not qualified to give medical advice. Please consult with a licensed medical professional for accurate information and guidance on medical conditions.",
+"Consult with a medical professional for accurate information and guidance on medical conditions.",
+"Please seek advice from a medical professional for accurate information and guidance on medical conditions.",
+"It's always best to speak to a doctor or a medical professional for any concerns or questions regarding medical conditions.",
+"I'm sorry, I am not qualified to give medical advice. Please consult with a licensed medical professional for accurate information and guidance on medical conditions.",
+"Please consult with a medical professional for accurate information and guidance on medical conditions."
+],
+"context_set": ""
+}
+                ]
+            }
+            
+    
